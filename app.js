@@ -68,14 +68,25 @@ res.status(200).send(updatedQuote);
 
 //ticket 7
 //create a delete request with the path to receive as /quotes/:id
-app.delete("/quotes/:id", async (req, res) => {
+   app.delete("/quotes/:id", async (req, res) => {
+    try {
   //tell the request to extract the id from the URL
   const { id } = req.params;
   //use the deleteQuote function to delete the quote
   const deletedQuote = await deleteQuote(id);
+
+  if (!deletedQuote) {
+    res.status(404).send("Quote not found")
+  }
+
   //create a status and send update to client
   res.status(200).send("Quote deleted!");
-})
+  }
+    catch (error){
+      console.error("Error deleting quote", error)
+      res.status(500).send("Failed to delete the code.");
+    }
+});
 
 app.listen(PORT, function () {
   console.log(`Server is now listening on http://localhost:${PORT}`);
