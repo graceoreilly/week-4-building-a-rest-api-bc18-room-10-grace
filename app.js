@@ -33,14 +33,6 @@ res.status(200).send(quoteId);
 })
 
 //ticket 5
-//PLAN:
-//1. write a POST request✅
-//2. define the path to receive as /quotes✅
-//3. use an async function✅
-//4. use the add quote function✅
-//5. add the new quote to the body of the request✅
-
-//ticket 6
 //create a post request, path is /quotes
 app.post("/quotes", async (req, res) => {
 //define what needs to go into the body of the post request - quoteText, author
@@ -60,7 +52,20 @@ const newQuote = await addQuote(quoteText, author);
 res.status(201).send(newQuote);
 })
 
-
+//ticket 6
+// create a patch request // path /quotes/:id should be received
+app.patch("/quotes/:id", async (req, res) => {
+// take the id from the URL entered
+const { id } = req.params;
+//define what needs to go into the body of the request
+const { newQuoteText, newAuthor } = req.body;
+// use editQuote function to update quote data from the id that was received
+// create a variable to store updatedQuote info
+const updatedQuote = await editQuote(id, newQuoteText, newAuthor)
+//create status and send the updatedQuote to the client
+res.status(200).send(updatedQuote);
+}
+)
 
 app.listen(PORT, function () {
   console.log(`Server is now listening on http://localhost:${PORT}`);
