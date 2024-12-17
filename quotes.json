@@ -27,19 +27,5 @@
   { "id": "2f229ca9-7e60-492c-a7e1-5f9aa557939d", "author": "Unknown" },
   { "id": "d638f612-6d10-4f60-9d62-0b6bc7df2c79", "author": "Unknown" },
   { "id": "831c4a6a-00fe-4951-920f-907eb39cc557", "author": "Unknown" },
-  { "id": "8e09340b-4a75-4846-ae0c-17f6759e2dd6", "author": "Unknown" },
-  {
-    "id": "9fcfd75f-e0fe-4fbf-a2cd-563f1980e33f",
-    "quoteText": "Loads of quotes and quotes",
-    "author": "Unknown"
-  },
-  {
-    "id": "ace270b5-a9b6-47f1-bc5d-16be1a31e3e4",
-    "quoteText": "Loads of quotes and quotes"
-  },
-  {
-    "id": "35af53ae-f98c-4ed1-b273-6f714af72f44",
-    "quoteText": "I have been updated",
-    "author": "Grace"
-  }
+  { "id": "8e09340b-4a75-4846-ae0c-17f6759e2dd6", "author": "Unknown" }
 ]

@@ -61,11 +61,21 @@ const { id } = req.params;
 const { newQuoteText, newAuthor } = req.body;
 // use editQuote function to update quote data from the id that was received
 // create a variable to store updatedQuote info
-const updatedQuote = await editQuote(id, newQuoteText, newAuthor)
+const updatedQuote = await editQuote(id, newQuoteText, newAuthor);
 //create status and send the updatedQuote to the client
 res.status(200).send(updatedQuote);
-}
-)
+});
+
+//ticket 7
+//create a delete request with the path to receive as /quotes/:id
+app.delete("/quotes/:id", async (req, res) => {
+  //tell the request to extract the id from the URL
+  const { id } = req.params;
+  //use the deleteQuote function to delete the quote
+  const deletedQuote = await deleteQuote(id);
+  //create a status and send update to client
+  res.status(200).send("Quote deleted!");
+})
 
 app.listen(PORT, function () {
   console.log(`Server is now listening on http://localhost:${PORT}`);
