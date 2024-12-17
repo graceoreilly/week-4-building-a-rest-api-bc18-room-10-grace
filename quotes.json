@@ -1,1 +1,27 @@
-[{"id":"7fdab464-e0c4-45fb-94fe-c4dd376f6645","quoteText":"The only limit to our realization of tomorrow will be our doubts of today.","author":"Franklin D. Roosevelt"},{"id":"7e00377e-cd25-4473-83e6-77e29b537e02","quoteText":"The only way to do great work is to love what you do.","author":"Steve Jobs"},{"id":"41f156b4-e634-4e30-8ddd-9ca176a1b230","quoteText":"Success is not final, failure is not fatal: It is the courage to continue that counts.","author":"Winston S. Churchill"},{"id":"2c4bdf19-ae49-4641-8bfc-82aa3971f7dd","quoteText":"Don't watch the clock; do what it does. Keep going.","author":"Sam Levenson"},{"id":"60a7cdbc-1bf0-4738-adaf-1a686651c9a9","quoteText":"The future is uncertain.","author":"Eleanor D. Roosevelt"}]
+[
+  {
+    "id": "7fdab464-e0c4-45fb-94fe-c4dd376f6645",
+    "quoteText": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": "7e00377e-cd25-4473-83e6-77e29b537e02",
+    "quoteText": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": "41f156b4-e634-4e30-8ddd-9ca176a1b230",
+    "quoteText": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Winston S. Churchill"
+  },
+  {
+    "id": "2c4bdf19-ae49-4641-8bfc-82aa3971f7dd",
+    "quoteText": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson"
+  },
+  {
+    "id": "60a7cdbc-1bf0-4738-adaf-1a686651c9a9",
+    "quoteText": "The future is uncertain.",
+    "author": "Eleanor D. Roosevelt"
+  }
+]

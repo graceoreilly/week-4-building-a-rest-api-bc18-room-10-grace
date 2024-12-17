@@ -23,6 +23,12 @@ app.get("/quotes", async (req, res) => { //create get request. /quotes url.
 
 //needed to be an async function with await, as getQuotes is an async function, so this function was fulfulling before the getQuotes function, so returning an empty object.
 
+app.get("/quotes/:id", async (req, res) =>{ 
+const { id } = req.params; //take the ID from the URL
+  const quoteId = await getQuoteByID(id);
+res.status(200).send(quoteId);
+})
+
 app.listen(PORT, function () {
   console.log(`Server is now listening on http://localhost:${PORT}`);
 });
