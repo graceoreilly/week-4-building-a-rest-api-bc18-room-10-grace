@@ -1,1 +1,45 @@
-[{"id":"7fdab464-e0c4-45fb-94fe-c4dd376f6645","quoteText":"The only limit to our realization of tomorrow will be our doubts of today.","author":"Franklin D. Roosevelt"},{"id":"7e00377e-cd25-4473-83e6-77e29b537e02","quoteText":"The only way to do great work is to love what you do.","author":"Steve Jobs"},{"id":"41f156b4-e634-4e30-8ddd-9ca176a1b230","quoteText":"Success is not final, failure is not fatal: It is the courage to continue that counts.","author":"Winston S. Churchill"},{"id":"2c4bdf19-ae49-4641-8bfc-82aa3971f7dd","quoteText":"Don't watch the clock; do what it does. Keep going.","author":"Sam Levenson"},{"id":"60a7cdbc-1bf0-4738-adaf-1a686651c9a9","quoteText":"The future is uncertain.","author":"Eleanor D. Roosevelt"}]
+[
+  {
+    "id": "7fdab464-e0c4-45fb-94fe-c4dd376f6645",
+    "quoteText": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": "7e00377e-cd25-4473-83e6-77e29b537e02",
+    "quoteText": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": "41f156b4-e634-4e30-8ddd-9ca176a1b230",
+    "quoteText": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Winston S. Churchill"
+  },
+  {
+    "id": "2c4bdf19-ae49-4641-8bfc-82aa3971f7dd",
+    "quoteText": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson"
+  },
+  {
+    "id": "60a7cdbc-1bf0-4738-adaf-1a686651c9a9",
+    "quoteText": "The future is uncertain.",
+    "author": "Eleanor D. Roosevelt"
+  },
+  { "id": "2f229ca9-7e60-492c-a7e1-5f9aa557939d", "author": "Unknown" },
+  { "id": "d638f612-6d10-4f60-9d62-0b6bc7df2c79", "author": "Unknown" },
+  { "id": "831c4a6a-00fe-4951-920f-907eb39cc557", "author": "Unknown" },
+  { "id": "8e09340b-4a75-4846-ae0c-17f6759e2dd6", "author": "Unknown" },
+  {
+    "id": "9fcfd75f-e0fe-4fbf-a2cd-563f1980e33f",
+    "quoteText": "Loads of quotes and quotes",
+    "author": "Unknown"
+  },
+  {
+    "id": "ace270b5-a9b6-47f1-bc5d-16be1a31e3e4",
+    "quoteText": "Loads of quotes and quotes"
+  },
+  {
+    "id": "35af53ae-f98c-4ed1-b273-6f714af72f44",
+    "quoteText": "Loads of quotes and quotes",
+    "author": "Grace"
+  }
+]

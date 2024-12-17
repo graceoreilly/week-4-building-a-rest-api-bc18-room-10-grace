@@ -37,14 +37,30 @@ res.status(200).send(quoteId);
 //1. write a POST request✅
 //2. define the path to receive as /quotes✅
 //3. use an async function✅
-//4. use the edit quote function✅
+//4. use the add quote function✅
 //5. add the new quote to the body of the request✅
 
+//ticket 6
+//create a post request, path is /quotes
 app.post("/quotes", async (req, res) => {
-const { quote } = req.body;
-const quotes = await editQuote()
-res.status(201).send(req.body);
+//define what needs to go into the body of the post request - quoteText, author
+// e.g it extracts the quoteText property from the req.body and assigns it to a variable named quoteText
+//req.body is telling the post request, there needs to be a body and what needs to be in it
+const { quoteText, author } = req.body; 
+//if quoteText is not defined in the body, error message says it is the client's error
+if (!quoteText) { 
+  return res.status(400).send({error: "Quote is required!"});
+}
+//create a variable to store newQuote data
+//use the addQuote function(e.g. call it) to take in two variables and store this info in the newQuote variable
+//this function adds the new quote to the variable
+const newQuote = await addQuote(quoteText, author);
+//set the response status to 201 (status for created)
+//the .send(newQuote) will send the new quote object as the response body to the client to confirm to the client that the new quote was created
+res.status(201).send(newQuote);
 })
+
+
 
 app.listen(PORT, function () {
   console.log(`Server is now listening on http://localhost:${PORT}`);
